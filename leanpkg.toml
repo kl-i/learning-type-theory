@@ -1,0 +1,8 @@
+[package]
+name = "learning type theory"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.9.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "ae06db33b352e41bdd7afcaee5cde3679f234bd2"}
